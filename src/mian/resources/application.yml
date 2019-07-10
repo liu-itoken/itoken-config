@@ -1,6 +1,8 @@
 spring:
   application:
     name: itoken-config
+  zipkin:
+    base-url: http://47.111.117.131:9411
   cloud:
     config:
       label: master
@@ -10,6 +12,10 @@ spring:
           search-paths: respo
           username: 2395546591@qq.com
           password: liu18727325467
+  boot:
+    admin:
+      client:
+        url: http://47.111.117.131:8084
 
 server:
   port: 8888
@@ -17,4 +23,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://47.111.117.131:8761/eureka/
