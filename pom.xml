@@ -56,7 +56,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.config.ConfigApplication</mainClass>
+                    <mainClass>com.liux.spring.cloud.itoken.config.ConfigApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
