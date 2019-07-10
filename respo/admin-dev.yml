@@ -14,8 +14,8 @@ management:
   endpoints:
     web:
       exposure:
-        # 注意：此处在视频里是 include: ["health", "info"] 但已无效了，请修改
         include: health,info
+
 
 eureka:
   client:
